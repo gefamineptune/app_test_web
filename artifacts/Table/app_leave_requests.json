@@ -1,0 +1,66 @@
+{
+	"id": "44fb60f6-e073-47d8-86a2-87278bb07bda",
+	"createdAt": "2025-04-28T01:38:13.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "09efa997-5014-4ee1-c3f1-367afbe7d873",
+			"fieldName": "employee_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "9a265909-7f30-4e95-d782-682726955e4c",
+			"fieldName": "leave_type_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "3ba37f5f-09e6-4a98-c5e4-a5a16f80a49d",
+			"fieldName": "start_date",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "aeb203d8-a9d4-4285-f805-82796ee68b5f",
+			"fieldName": "end_date",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "556a0e24-390f-460a-e489-e3c82634342c",
+			"fieldName": "total_days",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "06dec5e4-e9a5-4d9e-bc1b-1c6cbe15e584",
+			"fieldName": "reason",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "397ef67d-f89b-4581-9c28-e46e7595b910",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "d7d17951-56d0-4dec-9228-1ac61bd9346d",
+			"fieldName": "created_by",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_leave_requests",
+	"description": null,
+	"ver": "25.07.04.1623",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

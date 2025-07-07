@@ -1,0 +1,68 @@
+{
+	"id": "5e6b1513-245b-4d3c-a94c-451bb2234c1d",
+	"createdAt": "2025-05-07T07:39:06.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "24869d65-e122-46e2-8b57-b5f5572638b8",
+			"fieldName": "type_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "9a57ca2a-fabe-4fcb-8408-c8f39d84b6f3",
+			"fieldName": "submitter_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "02a8d07e-8c6d-46ca-94fd-b74a5e8d04ac",
+			"fieldName": "level",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "e4127ce5-2efa-4bfa-f4c7-3aa3b5f00d06",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "38c408bd-ee74-4701-fdb1-59525c1f0861",
+			"fieldName": "timestamp",
+			"fieldType": "timestamptz",
+			"isUnique": false
+		},
+		{
+			"id": "7eca5ba9-7cbd-4884-9e98-b8dcf608e199",
+			"fieldName": "is_active",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"default": false
+		},
+		{
+			"id": "be718df2-6132-4364-8f12-e14d6ee285e6",
+			"fieldName": "created_by",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "980daa25-0f59-43fa-f668-012e6a08ec9f",
+			"fieldName": "approval_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_approval_tracking",
+	"description": null,
+	"ver": "25.07.04.1616",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

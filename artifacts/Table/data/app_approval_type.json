@@ -1,0 +1,26 @@
+[
+	{
+		"id": "fdbb0598-9a86-4c6c-af7c-15fd5d5309ae",
+		"createdAt": "1746692800414",
+		"updatedAt": "1746692800414",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"type_name": "Bussiness Trip"
+	},
+	{
+		"id": "f00c3671-d2a9-4043-b568-66ce0a24de53",
+		"createdAt": "1746692810472",
+		"updatedAt": "1746692810472",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"type_name": "Overtime"
+	},
+	{
+		"id": "80001934-fcf1-4bac-958c-46394d2b47b6",
+		"createdAt": "1746692791106",
+		"updatedAt": "1746692791106",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"type_name": "Leave"
+	}
+]

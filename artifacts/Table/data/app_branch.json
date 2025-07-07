@@ -1,0 +1,32 @@
+[
+	{
+		"id": "7d493f36-4007-44b0-a2d2-e067153f9f9e",
+		"createdAt": "1747289148146",
+		"updatedAt": "1747289148146",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_code": "001",
+		"branch_name": "JAKARTA BRANCH",
+		"address": "jl. ahmad dahlan"
+	},
+	{
+		"id": "78be1497-aa90-4894-bdca-07d4d140e6ec",
+		"createdAt": "1747289167456",
+		"updatedAt": "1747289167456",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_code": "002",
+		"branch_name": "BANDUNG BRANCH",
+		"address": "jl. ajksbkds"
+	},
+	{
+		"id": "307a8531-e45d-4963-9ccd-59384eae38e6",
+		"createdAt": "1747289187049",
+		"updatedAt": "1747289187049",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_code": "003",
+		"branch_name": "SEMARANG BRANCH",
+		"address": "JL. Kelinci"
+	}
+]

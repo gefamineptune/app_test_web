@@ -1,0 +1,10 @@
+
+// Replace yourField with FieldName
+const context = oEvent.oSource.getBindingContext("MultiModel_Attendance");  
+// Get Single Field
+const value = context.getProperty("attendance_id");
+
+deleteAttendance(value);
+
+
+

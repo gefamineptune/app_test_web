@@ -1,0 +1,59 @@
+{
+	"id": "445be287-b9fa-4c95-ad64-8e038627c128",
+	"createdAt": "2025-04-14T12:33:41.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "ca345fa2-061e-4311-b79b-3e888a03133f",
+			"fieldName": "departure_date",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "620586a1-33bf-4331-9084-932a9ec96a4e",
+			"fieldName": "return_date",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "48432a57-bf05-4911-944d-c00d485e5a50",
+			"fieldName": "destination",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "e1b899bf-37f5-4430-cdb9-de90cb6f0923",
+			"fieldName": "purpose",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "5252b7d6-450c-4aa3-d7a9-e9999eeeba83",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "af027c2f-f2a3-4931-faa8-d5bcbf2430a5",
+			"fieldName": "approver_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "93a6dac8-af2e-4392-f088-0c4049a776c7",
+			"fieldName": "employee_id",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_bussiness_trip",
+	"description": null,
+	"ver": "25.07.04.1623",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

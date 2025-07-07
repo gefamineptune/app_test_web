@@ -1,0 +1,62 @@
+[
+	{
+		"id": "fead5d6d-11b0-470c-a49d-1347b1c6ba99",
+		"createdAt": "1745805391996",
+		"updatedAt": "1747714099687",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"position_name": "Staff",
+		"description": "Staff",
+		"level": 1
+	},
+	{
+		"id": "d7983856-418b-43c8-9166-b2b1e0f08b2d",
+		"createdAt": "1746602996403",
+		"updatedAt": "1747714099687",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"position_name": "Director",
+		"description": "director",
+		"level": 5
+	},
+	{
+		"id": "adde943f-0789-45fe-9408-ac772000ce14",
+		"createdAt": "1751252339489",
+		"updatedAt": "1751252588777",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"position_name": "Admin",
+		"description": "Human Resources Development",
+		"level": null
+	},
+	{
+		"id": "5325751f-04e6-4c98-b308-b319e563f814",
+		"createdAt": "1745805421324",
+		"updatedAt": "1747714099687",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"position_name": "Supervisor",
+		"description": "Mengawasi Staff",
+		"level": 2
+	},
+	{
+		"id": "437436bf-c54c-4079-9932-440b64aaaed4",
+		"createdAt": "1746602974369",
+		"updatedAt": "1747714099687",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"position_name": "General Manager",
+		"description": "manager",
+		"level": 4
+	},
+	{
+		"id": "2a026c6d-5945-4c82-bb6a-710b5643de00",
+		"createdAt": "1745805409419",
+		"updatedAt": "1747714099687",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"position_name": "Department Head",
+		"description": "mengawasi staff",
+		"level": 3
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"id": "c4b55433-af65-480d-aad4-545e31b26066",
+		"createdAt": "1746603095837",
+		"updatedAt": "1746603095837",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"department_code": "20",
+		"department_name": "IT",
+		"gm_employee_id": null
+	},
+	{
+		"id": "46fcd5fe-31d6-419e-998c-da7c6bf1c268",
+		"createdAt": "1745804898177",
+		"updatedAt": "1746603087345",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"department_code": "10",
+		"department_name": "HR",
+		"gm_employee_id": null
+	},
+	{
+		"id": "252c3cf2-dd54-4a79-9da8-463c96d2fd26",
+		"createdAt": "1746603113523",
+		"updatedAt": "1746603113523",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"department_code": "30",
+		"department_name": "Finance",
+		"gm_employee_id": null
+	},
+	{
+		"id": "202bdda8-acfa-4a66-93f4-0dba751ed21c",
+		"createdAt": "1746603123784",
+		"updatedAt": "1746603123784",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"department_code": "40",
+		"department_name": "Sales",
+		"gm_employee_id": null
+	}
+]

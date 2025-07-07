@@ -1,0 +1,61 @@
+{
+	"id": "3b3ef7f1-8cdb-4ce3-b82a-30f9adf79896",
+	"createdAt": "2025-04-14T12:46:39.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "801862ed-ed50-4f5c-c771-1883d20a071f",
+			"fieldName": "employee_id",
+			"fieldType": "uuid",
+			"isUnique": false
+		},
+		{
+			"id": "2b6e131e-c41d-4cbf-8680-e2b539f77258",
+			"fieldName": "date",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "49429db6-13b2-4826-d6ba-24831ebf6343",
+			"fieldName": "check_in_time",
+			"fieldType": "timestamptz",
+			"isUnique": false
+		},
+		{
+			"id": "7808df32-0a9f-4753-84f3-25d052d44a21",
+			"fieldName": "check_out_time",
+			"fieldType": "timestamptz",
+			"isUnique": false
+		},
+		{
+			"id": "272a6586-25dc-4caf-bc52-be02e6dacd55",
+			"fieldName": "working_hours",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"description": "total jam kerja"
+		},
+		{
+			"id": "ae7e8ac5-d902-4281-8d2a-a3aae6e19d04",
+			"fieldName": "attendance_type",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "63afb019-63b0-48ff-9755-40197f7b89e5",
+			"fieldName": "notes",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_attendances",
+	"description": null,
+	"ver": "25.07.04.1622",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

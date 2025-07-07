@@ -1,0 +1,44 @@
+[
+	{
+		"id": "e15f0ee3-6802-4147-be58-3e749f830d11",
+		"createdAt": "1751343806796",
+		"updatedAt": "1751343833015",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"employee_id": "cb2efed2-403b-4531-af1a-30853d44459c",
+		"date": "2025-01-06T17:00:00.000Z",
+		"check_in_time": "2025-07-02T04:23:14.000Z",
+		"check_out_time": "2025-07-09T04:55:38.000Z",
+		"working_hours": 168.54,
+		"attendance_type": "Manual",
+		"notes": "no"
+	},
+	{
+		"id": "9a44d5d5-a8c2-4816-9beb-e6e830f2633e",
+		"createdAt": "1745899991975",
+		"updatedAt": "1751343152190",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"employee_id": "cb2efed2-403b-4531-af1a-30853d44459c",
+		"date": "2025-01-03T17:00:00.000Z",
+		"check_in_time": "2025-04-16T04:12:57.000Z",
+		"check_out_time": "2025-04-18T04:13:01.000Z",
+		"working_hours": 48,
+		"attendance_type": "Online",
+		"notes": "123"
+	},
+	{
+		"id": "2ecca9e1-91ef-4105-bfdb-a5f32af479ce",
+		"createdAt": "1745211547867",
+		"updatedAt": "1751343476296",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"employee_id": "cb2efed2-403b-4531-af1a-30853d44459c",
+		"date": "2025-06-03T17:00:00.000Z",
+		"check_in_time": "2025-04-03T04:29:47.000Z",
+		"check_out_time": "2025-04-03T06:14:57.000Z",
+		"working_hours": 1.75,
+		"attendance_type": "Online",
+		"notes": "jhv"
+	}
+]

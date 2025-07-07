@@ -1,0 +1,32 @@
+[
+	{
+		"id": "df73b585-8ebd-4235-894d-37235d06a06e",
+		"createdAt": "1745805346370",
+		"updatedAt": "1745805346370",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Cuti Tahunan",
+		"quota_days": 12,
+		"is_active": true
+	},
+	{
+		"id": "dd2f4e74-dc1b-4f0c-8df1-9341c00a8773",
+		"createdAt": "1745805362590",
+		"updatedAt": "1745805362590",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Cuti Sakit",
+		"quota_days": 14,
+		"is_active": true
+	},
+	{
+		"id": "b26a3057-a79f-4c70-b816-4947a585c73d",
+		"createdAt": "1745805381102",
+		"updatedAt": "1745805381102",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"name": "Cuti Melahirkan",
+		"quota_days": 30,
+		"is_active": true
+	}
+]

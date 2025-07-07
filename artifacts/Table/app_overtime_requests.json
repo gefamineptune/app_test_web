@@ -1,0 +1,53 @@
+{
+	"id": "3905d722-1813-4639-ac9b-9638301d4175",
+	"createdAt": "2025-04-14T12:38:04.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "b6c9800a-71e4-4171-83be-7f9e6f10edfa",
+			"fieldName": "employee_id",
+			"fieldType": "uuid",
+			"isUnique": false
+		},
+		{
+			"id": "526be47f-19ff-481f-9ebf-667963d5deb1",
+			"fieldName": "date",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "f9ba0129-3a13-4dff-9ca3-13918871a653",
+			"fieldName": "total_hours",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "3dd2fd0c-150e-45bd-d987-a3b7db2de0b7",
+			"fieldName": "reason",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "8bbd1fb3-6861-4919-b796-1c0ea9722f34",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "0fef19e1-e977-495b-c1cb-9fc7f0c7ea10",
+			"fieldName": "approver_id",
+			"fieldType": "uuid",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_overtime_requests",
+	"description": null,
+	"ver": "25.07.04.1624",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

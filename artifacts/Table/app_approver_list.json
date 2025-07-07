@@ -1,0 +1,50 @@
+{
+	"id": "1724ff86-9eb8-4df4-82a7-8beae9084377",
+	"createdAt": "2025-05-21T04:59:43.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "b5b400d4-95e5-418c-85a5-13e1a6dc564c",
+			"fieldName": "approval_tracking_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "9011b281-8708-40d6-9a22-1fbc1b6d03cb",
+			"fieldName": "approver_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "f5ba78f2-bf47-4066-83b9-a033a75ce27c",
+			"fieldName": "approver_name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "9fb58d7f-0d38-4cc7-909f-c8149266b946",
+			"fieldName": "approval_type_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6325abd2-ffd5-446a-88b7-81169309fa62",
+			"fieldName": "is_active",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true,
+			"default": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_approver_list",
+	"description": null,
+	"ver": "25.07.04.1622",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

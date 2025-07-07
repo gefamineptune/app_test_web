@@ -1,0 +1,54 @@
+[
+	{
+		"id": "c0f4d2aa-5f4f-446c-b194-6ee87c2ea7d9",
+		"createdAt": "1745200021235",
+		"updatedAt": "1751592861956",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"employee_id": "cb2efed2-403b-4531-af1a-30853d44459c",
+		"date": "2025-01-04T17:00:00.000Z",
+		"total_hours": 6,
+		"reason": "ddb",
+		"status": "Pending",
+		"approver_id": ""
+	},
+	{
+		"id": "ba85263c-ba03-4d61-a87f-90205376dfd1",
+		"createdAt": "1745120678470",
+		"updatedAt": "1745120678470",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"employee_id": "834faca0-3ced-43a3-81a9-020d69e77756",
+		"date": "2025-02-03T17:00:00.000Z",
+		"total_hours": 2,
+		"reason": "nothing",
+		"status": "Pending",
+		"approver_id": "10cc5ed2-684d-49f2-9439-f04d0ead278a"
+	},
+	{
+		"id": "30caeebf-96c7-4169-9ef1-1c39c37f8998",
+		"createdAt": "1751592872322",
+		"updatedAt": "1751592872322",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"employee_id": "cb2efed2-403b-4531-af1a-30853d44459c",
+		"date": "2025-02-06T17:00:00.000Z",
+		"total_hours": 78,
+		"reason": "no",
+		"status": "Pending",
+		"approver_id": ""
+	},
+	{
+		"id": "00169cd5-67b4-4612-93a2-a2a1cf844ffa",
+		"createdAt": "1745200007004",
+		"updatedAt": "1745200007004",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"employee_id": "834faca0-3ced-43a3-81a9-020d69e77756",
+		"date": "2025-07-03T17:00:00.000Z",
+		"total_hours": "gf",
+		"reason": "fhfh",
+		"status": "Pending",
+		"approver_id": "834faca0-3ced-43a3-81a9-020d69e77756"
+	}
+]

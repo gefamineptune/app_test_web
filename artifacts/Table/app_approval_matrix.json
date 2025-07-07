@@ -1,0 +1,59 @@
+{
+	"id": "2de83a21-7ac4-447b-84dc-74b03f375fb7",
+	"createdAt": "2025-05-07T07:38:32.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "7bbd99ac-2b9e-4559-ee8a-88c0240f3fac",
+			"fieldName": "approval_setup_name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "177f2930-aae7-48fb-a93f-7bcf2f7b88fb",
+			"fieldName": "submitter_position_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "bcffbf5a-9c15-440d-e8cd-c2bd88ae176e",
+			"fieldName": "approver1",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "fd7dbbf2-4211-4507-ce76-c6fb20a404ea",
+			"fieldName": "approver2",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "8bba598f-9810-40a7-a779-080fa447b801",
+			"fieldName": "approver3",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "8ad755c9-7dbd-4a08-97d2-34fc726bbd52",
+			"fieldName": "approver4",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "426677d9-8591-46c2-cb24-eec6dd8bf66f",
+			"fieldName": "type_id",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_approval_matrix",
+	"description": null,
+	"ver": "25.07.04.1616",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

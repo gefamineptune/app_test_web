@@ -1,0 +1,23 @@
+// //  * Parameters:
+// //  * where - Optional parameter 
+// //  * Description: { "fieldName": "value"}  or { "fieldName": "Not(value)"} or { "fieldName": "Between(1,10)"}            or {fieldName: In(["value1", "value2"])}            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)
+// //  * select - Optional parameter 
+// //  * Description: fieldName1, fieldname2, fieldName3
+// //  * take - Optional parameter 
+// //  * Description: Limit (paginated) - max number of entities that should be taken
+// //  * skip - Optional parameter 
+// //  * Description: Offset (paginated) from where entities should be taken
+// //  * order - Optional parameter 
+// //  * Description: {"fieldName1": "ASC", "fieldName2": "DESC"}
+// //  * 
+// //  */
+// debugger
+// let whereClause = { name: SearchField_employee.getValue() };
+
+// var options = {
+//     parameters: {
+//         where: JSON.stringify(whereClause) // ← langsung stringify seluruh whereClause
+//     }
+// };
+
+// apiGetEmployees(options);

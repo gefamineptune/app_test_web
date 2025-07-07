@@ -1,0 +1,35 @@
+{
+	"id": "1f931c8f-1af4-43d2-8147-d1a7765c03d1",
+	"createdAt": "2025-05-26T03:49:42.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "6bdcf8e6-aa00-4c73-8858-b0cef1354af0",
+			"fieldName": "department_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "385e213a-4e8d-4849-896d-f3b2c0244e3f",
+			"fieldName": "branch_id",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "9fe83db7-25b3-454b-bf95-21a70dcb04d0",
+			"fieldName": "gm_employee_id",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "department_gm_mapping",
+	"description": null,
+	"ver": "25.07.04.1624",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,7 @@
+// Replace yourField with FieldName
+const context = oEvent.oSource.getBindingContext("MultiModel_ApprovalSetup");  
+// Get Single Field
+const value = context.getProperty("approval_id");
+
+deleteApprovalSetup(value);
+

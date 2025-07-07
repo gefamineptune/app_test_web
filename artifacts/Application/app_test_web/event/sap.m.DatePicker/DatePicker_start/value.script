@@ -1,0 +1,3 @@
+if (typeof start_date === "undefined" || start_date === null || start_date === "") { return; }  
+var formattedText = start_date; 
+return formattedText;

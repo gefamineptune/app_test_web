@@ -1,0 +1,225 @@
+{
+	"id": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"createdAt": "2025-07-04T01:38:28.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/gefamineptune/app_test_web.git"
+	},
+	"name": "test_app_web",
+	"description": null,
+	"ver": "25.07.07.1414",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "9abfbd01-0dbf-4726-a3ec-d85dcef34658",
+			"application": "app_test_web",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "6cd1d80d-0487-4f8b-ae76-5c06de706411"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "fbc28508-7aec-48ef-a8e6-4db39e8c02ed",
+			"name": "app_approval_tracking",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "f680ad1a-9590-443f-a114-dc5679c7cfbe",
+			"name": "app_positions",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "f2d5cf7e-6b87-4c8e-8121-0cd8f12a4a5e",
+			"name": "app_employees",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "f0dbdd04-9d11-4a5d-8b2d-8d3b4859797b",
+			"name": "app_branch",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "b86d5ee2-85b9-4ca1-ba3a-381f4336d009",
+			"name": "app_approver_list1",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "aff93599-0ddb-469d-a758-f786aabc9dbe",
+			"name": "app_approval_matrix",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "a3ab649f-58b0-4138-b82e-983564b1e312",
+			"name": "app_employees1",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "a23c1662-335e-4590-9e16-6fddc124fcdc",
+			"name": "department_gm_mapping",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "8b2319bc-9d7d-499d-9553-cdb2db073de8",
+			"name": "app_leave_requests",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "877ffb1a-028b-4fa2-9dd1-954afa2ce4b3",
+			"name": "app_approval_tracking",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "5c2ec5de-6b17-4951-b0c6-8354397eac37",
+			"name": "app_bussiness_trip",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "4e91be7f-6cae-4f56-b7da-2493130c1241",
+			"name": "app_approval_type",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "3289887a-bb16-4d8f-a073-7f31cbbbc434",
+			"name": "app_leave_types",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "2ad191b9-4b12-443a-8f79-fd75b3b8676e",
+			"name": "app_overtime_requests",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "19dff5be-8bf3-4ad5-a74c-dbae9240cdd6",
+			"name": "app_attendances",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "0d194e0a-0154-40b4-94b0-8fd94be85bd5",
+			"name": "app_departments",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "0431d409-4ad0-4cb8-a1d1-9419ca9e179a",
+			"name": "app_approver_list",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "a99ab748-3de9-4cc9-986b-9b3ee47cead3",
+			"name": "app_branch",
+			"description": null
+		},
+		{
+			"id": "9b17f223-49be-46ef-b914-39a92f46929a",
+			"name": "app_positions",
+			"description": null
+		},
+		{
+			"id": "921ac2b5-0963-4318-a0b7-d88af4823c47",
+			"name": "app_leave_types",
+			"description": null
+		},
+		{
+			"id": "8d361bfc-b5b6-4df9-8d7c-52712d17b831",
+			"name": "app_employees",
+			"description": null
+		},
+		{
+			"id": "7379e173-512c-495e-a38d-1dd5dc9541dd",
+			"name": "app_departments",
+			"description": null
+		},
+		{
+			"id": "5e6b1513-245b-4d3c-a94c-451bb2234c1d",
+			"name": "app_approval_tracking",
+			"description": null
+		},
+		{
+			"id": "44fb60f6-e073-47d8-86a2-87278bb07bda",
+			"name": "app_leave_requests",
+			"description": null
+		},
+		{
+			"id": "445be287-b9fa-4c95-ad64-8e038627c128",
+			"name": "app_bussiness_trip",
+			"description": null
+		},
+		{
+			"id": "3b3ef7f1-8cdb-4ce3-b82a-30f9adf79896",
+			"name": "app_attendances",
+			"description": null
+		},
+		{
+			"id": "3905d722-1813-4639-ac9b-9638301d4175",
+			"name": "app_overtime_requests",
+			"description": null
+		},
+		{
+			"id": "2de83a21-7ac4-447b-84dc-74b03f375fb7",
+			"name": "app_approval_matrix",
+			"description": null
+		},
+		{
+			"id": "1f931c8f-1af4-43d2-8147-d1a7765c03d1",
+			"name": "department_gm_mapping",
+			"description": null
+		},
+		{
+			"id": "17e3fd48-d0e4-46c6-8ccb-ca51ae324f85",
+			"name": "app_approval_type",
+			"description": null
+		},
+		{
+			"id": "1724ff86-9eb8-4df4-82a7-8beae9084377",
+			"name": "app_approver_list",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

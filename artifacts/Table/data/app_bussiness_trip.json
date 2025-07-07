@@ -1,0 +1,30 @@
+[
+	{
+		"id": "77d4d2d3-85d2-4811-8b42-ab5bdb84db34",
+		"createdAt": "1751591803598",
+		"updatedAt": "1751591876884",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"departure_date": "2025-01-06T17:00:00.000Z",
+		"return_date": "2025-03-06T17:00:00.000Z",
+		"destination": "Surabaya",
+		"purpose": "no",
+		"status": "Pending",
+		"approver_id": "",
+		"employee_id": "cb2efed2-403b-4531-af1a-30853d44459c"
+	},
+	{
+		"id": "3888cd46-2b5a-4018-a954-89692945c322",
+		"createdAt": "1746417209251",
+		"updatedAt": "1746417414197",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"departure_date": "2025-07-04T17:00:00.000Z",
+		"return_date": "2025-09-04T17:00:00.000Z",
+		"destination": "Bandung",
+		"purpose": "travel",
+		"status": "Pending",
+		"approver_id": "59e1d3e8-b443-45ad-b684-05b3e57672c7",
+		"employee_id": "e3d5ff1a-065e-4eba-97fc-b4b12235fa30"
+	}
+]

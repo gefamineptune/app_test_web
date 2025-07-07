@@ -1,0 +1,31 @@
+sort = !sort;
+
+// Single Field Sort
+const oSorter = new sap.ui.model.Sorter("name", sort, false);
+const binding = TableEmployee.getBinding("items");
+binding.sort(oSorter);
+
+// var options = {
+//     parameters: {
+//         where: JSON.stringify(whereClause) // ← langsung stringify seluruh whereClause
+//     }
+// };
+
+// apiTestEmployee().then(function(response) {
+//     const employeeArray = response || []; // langsung array
+//     console.log("Jumlah data:", employeeArray.length);
+//     console.log("Data:", employeeArray);
+
+//     // contoh akses
+//     employeeArray.forEach(emp => {
+//         console.log(emp.name, emp.createdAt);
+//     });
+
+// }).catch(function(error) {
+//     console.error("API error:", error);
+// });
+
+
+
+
+

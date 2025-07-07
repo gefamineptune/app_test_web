@@ -1,0 +1,35 @@
+{
+	"id": "a99ab748-3de9-4cc9-986b-9b3ee47cead3",
+	"createdAt": "2025-05-13T03:10:45.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "4cd16df1-4528-4375-cc3d-1fa717d4871d",
+			"fieldName": "branch_code",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "1e01631f-225c-43e6-e8de-05161b520a61",
+			"fieldName": "branch_name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "386e0801-5c55-419b-a197-336f715bde62",
+			"fieldName": "address",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_branch",
+	"description": null,
+	"ver": "25.07.04.1622",
+	"enableAudit": true,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

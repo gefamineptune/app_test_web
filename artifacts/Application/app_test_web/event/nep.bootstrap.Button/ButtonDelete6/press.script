@@ -1,0 +1,7 @@
+// Replace yourField with FieldName
+const context = oEvent.oSource.getBindingContext();  
+// Get Single Field
+const value = context.getProperty("id");
+
+deletePosition(value);
+

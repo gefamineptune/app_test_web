@@ -1,0 +1,36 @@
+{
+	"id": "9b17f223-49be-46ef-b914-39a92f46929a",
+	"createdAt": "2025-04-28T01:41:45.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "27209db0-3dcd-41b9-e106-e29d9f8a2274",
+			"fieldName": "position_name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "332a8b52-366e-47b7-c7e5-b5f1021ca12c",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "e8a57027-3973-4093-fd04-98e4ea913a01",
+			"fieldName": "level",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_positions",
+	"description": null,
+	"ver": "25.07.04.1624",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

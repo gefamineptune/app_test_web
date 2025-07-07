@@ -1,0 +1,383 @@
+{
+	"id": "a3ab649f-58b0-4138-b82e-983564b1e312",
+	"createdAt": "2025-05-26T04:26:28.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "e83c3f6b-e019-4382-b1a1-286f1d93e95b",
+			"path": "/app_employees",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "app_employees"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "55c3143c-3bae-479e-bf69-c3929ef77c85",
+			"path": "/app_employees",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "app_employees"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "app_employees"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "ecaf7f27-5104-4349-a621-fb47b7c86f8a",
+			"path": "/app_employees",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "app_employees"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "app_employees"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dbb9fcb8-55bc-4d73-b473-e3678745c70a",
+			"path": "/app_employees",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "app_employees"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "015f96c9-605d-47e1-8d00-cd01a6e4c424",
+			"path": "/app_employees/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "e78e495a-86e7-44e4-b938-e0500deee65b",
+			"name": "app_employees",
+			"properties": [
+				{
+					"id": "5fb1fe99-0d15-4cd3-850a-2a1a622f2367",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "8077349a-42d7-45a4-a70c-aa06f4101a41",
+					"parent": "",
+					"name": "employee_code",
+					"objectType": "string"
+				},
+				{
+					"id": "7da255c0-600e-483f-8a6d-c5da1c20812b",
+					"parent": "",
+					"name": "name",
+					"objectType": "string"
+				},
+				{
+					"id": "3f7771a4-25d6-4e4a-b712-24e2570efba5",
+					"parent": "",
+					"name": "email",
+					"objectType": "string"
+				},
+				{
+					"id": "5b1a060d-83ec-4049-ac66-67fa6f036648",
+					"parent": "",
+					"name": "join_date",
+					"objectType": "string"
+				},
+				{
+					"id": "1622d48f-04fe-49a8-997e-62dc32ae4095",
+					"parent": "",
+					"name": "status",
+					"objectType": "boolean"
+				},
+				{
+					"id": "334cf500-2355-47fe-9e38-1f8df2169c8b",
+					"parent": "",
+					"name": "position_id",
+					"objectType": "string"
+				},
+				{
+					"id": "6dd29670-7cb8-4a78-b432-e82146f5af79",
+					"parent": "",
+					"name": "department_id",
+					"objectType": "string"
+				},
+				{
+					"id": "81bbd89e-6581-4a6c-b83e-bbc66e87c66e",
+					"parent": "",
+					"name": "branch_id",
+					"objectType": "string"
+				},
+				{
+					"id": "71622df6-cc8c-4a51-a01f-562669eebca0",
+					"parent": "",
+					"name": "password",
+					"objectType": "string"
+				},
+				{
+					"id": "514937d8-0b0b-4f93-8bf5-d73fe097a700",
+					"parent": "",
+					"name": "username",
+					"objectType": "string"
+				},
+				{
+					"id": "537053e9-2cdc-4fce-b281-7f0c1e75d27b",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "f5eea74e-e46c-49ae-abc7-7a042a241d4b",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "568f06ec-64b6-45e6-9ecc-00013c6f1b1d",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "9c697ea4-1214-40cc-a918-8727d0dd6a62",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "c82b025b-5409-4eac-b4e7-9da168fbfb46",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "da9f0f0e-0cd8-4e51-a39f-e05cb9b04a74",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "cad7d821-6485-4ad2-9f9b-abc615c4dc51",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "c1801723-0660-4010-95af-d32fdf3d5b7f",
+			"name": "count",
+			"properties": [
+				{
+					"id": "4473d481-6350-45f1-ab48-df8d7553228a",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "app_employees1",
+	"endpoint": "/api/entity",
+	"ver": "25.07.04.0844",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

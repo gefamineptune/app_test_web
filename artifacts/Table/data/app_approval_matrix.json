@@ -1,0 +1,30 @@
+[
+	{
+		"id": "4a5d06b1-60ce-4686-a6da-f02ea0efa2e5",
+		"createdAt": "1747117530503",
+		"updatedAt": "1747118219068",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"approval_setup_name": "NEWW",
+		"submitter_position_id": "fead5d6d-11b0-470c-a49d-1347b1c6ba99",
+		"approver1": "2a026c6d-5945-4c82-bb6a-710b5643de00",
+		"approver2": "5325751f-04e6-4c98-b308-b319e563f814",
+		"approver3": "437436bf-c54c-4079-9932-440b64aaaed4",
+		"approver4": "d7983856-418b-43c8-9166-b2b1e0f08b2d",
+		"type_id": "fdbb0598-9a86-4c6c-af7c-15fd5d5309ae"
+	},
+	{
+		"id": "3da0d475-e4de-4da5-ae08-543f1aa99717",
+		"createdAt": "1747381423129",
+		"updatedAt": "1748573838591",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"approval_setup_name": "Leave Approval",
+		"submitter_position_id": "fead5d6d-11b0-470c-a49d-1347b1c6ba99",
+		"approver1": "5325751f-04e6-4c98-b308-b319e563f814",
+		"approver2": "2a026c6d-5945-4c82-bb6a-710b5643de00",
+		"approver3": "437436bf-c54c-4079-9932-440b64aaaed4",
+		"approver4": "",
+		"type_id": "80001934-fcf1-4bac-958c-46394d2b47b6"
+	}
+]

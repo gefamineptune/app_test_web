@@ -1,0 +1,23 @@
+{
+	"id": "17e3fd48-d0e4-46c6-8ccb-ca51ae324f85",
+	"createdAt": "2025-05-08T08:21:30.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "cda8e47d-2889-43cd-dcd2-8f396b935914",
+			"fieldName": "type_name",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "app_approval_type",
+	"description": null,
+	"ver": "25.07.04.1616",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "6cd1d80d-0487-4f8b-ae76-5c06de706411",
+	"rolesRead": [],
+	"rolesWrite": []
+}

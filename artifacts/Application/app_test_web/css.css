@@ -1,0 +1,275 @@
+/* Container List Item */
+.approval-item {
+  border-left: 4px solid #ccc;
+  padding: 10px 16px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+}
+
+/* Status aktif (highlighted) */
+.approval-item.active {
+  border-left-color: #0066cc;
+  background-color: #e9f2fb;
+}
+
+/* Judul status */
+.approval-item .status-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #212529;
+}
+
+/* Warna per status */
+.status-inprogress {
+  color: #0066cc;
+}
+
+.status-submit {
+  color: #6c757d;
+}
+
+.status-approved {
+  color: #28a745;
+}
+
+/* Full-page wrapper */
+#loginPageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #f0f2f5, #dfe6ed);
+}
+
+/* Card container */
+#loginCard {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Logo image */
+#logoImage {
+  width: 80px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+/* Title label */
+#titleLabel {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+/* Form fields container */
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+/* Login button */
+#loginButton {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+#loginButton:hover {
+  background-color: #004f99;
+}
+
+/* Footer label */
+#footerLabel {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* Header manual layout */
+#manualHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ccc;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Title text */
+#lblHeaderTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Close button */
+#btnCloseDialog {
+  background-color: transparent;
+  color: #666;
+  border: none;
+  font-size: 18px;
+}
+
+#btnCloseDialog:hover {
+  color: #000;
+}
+
+
+// DASHBOARD
+/* DASHBOARD */
+.dashboard-wrapper {
+  padding: 24px;
+  background-color: #f5f6fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Judul Halaman */
+.dashboard-header text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 24px;
+}
+
+.summary-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.card-summary {
+  padding: 16px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 240px;
+  color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  min-height: 100px;
+  padding-top: 12px;
+}
+
+.card-cuti {
+  background-color: #4e73df;
+}
+
+.card-overtime {
+  background-color: #f6c23e;
+  color: #212529; /* Warna teks agar kontras dengan kuning */
+}
+
+.card-trip {
+  background-color: #1cc88a;
+}
+
+.card-summary Label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+}
+
+/* Angka utama di summary card */
+.card-summary Text {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+
+.card-chart,
+.card-table {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.03);
+  margin-bottom: 24px;
+}
+
+/* Judul section (Activity, Riwayat Pengajuan, dll) */
+.card-chart Label,
+.card-table Label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2f2f2f;
+  margin-bottom: 12px;
+}
+
+.card-table Table {
+  margin-top: 12px;
+  width: 100%;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Tambahan agar semua label dan teks pasti tampil */
+Label, Text {
+  display: block;
+  visibility: visible;
+  color: inherit;
+}
+
+
+// END DASHBOARD
+
+
+// HEADER
+/* Wrapper Header */
+.header-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 16px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Bar Horizontal */
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Judul Halaman */
+.header-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Ikon Notifikasi / Profil */
+.header-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.header-icon {
+  font-size: 20px;
+  color: #4e73df;
+  cursor: pointer;
+}
+// END HEADER
+
